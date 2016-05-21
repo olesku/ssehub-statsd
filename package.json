@@ -1,0 +1,17 @@
+{
+  "name": "ssehub-statsd",
+  "version": "1.0.0",
+  "description": "Send statistics for SSEHub instance to StatsD.",
+  "main": "app.js",
+  "dependencies": {
+    "node-statsd": "^0.1.1",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "ssehub",
+    "statsd"
+  ],
+  "author": "Ole Fredrik Skudsvik",
+  "license": "MIT"
+}
