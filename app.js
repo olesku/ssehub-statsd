@@ -4,7 +4,7 @@ const config = {
   ssehubUrl:    process.env.SSEHUB_STATS_URL    || 'http://127.0.0.1/stats',
   statsdHost:   process.env.STATSD_HOST         || '127.0.0.1',
   statsdPort:   process.env.STATSD_PORT         || 8125,
-  statsdPrefix: process.env.STATSD_PREFIX       || 'ssehub',
+  statsdPrefix: process.env.STATSD_PREFIX       || 'ssehub.',
   interval:     process.env.POLL_INTERVAL       || 10
 }
 
