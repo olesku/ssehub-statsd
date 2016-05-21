@@ -8,7 +8,7 @@ npm install
 # Running
 node app.js
 
-## Environment variales
+## Environment variables
 
 * `SSEHUB_STATS_URL` - URL to poll for stats.
 * `STATSD_HOST` - Host that StatsD is running on.
