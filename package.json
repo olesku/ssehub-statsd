@@ -4,11 +4,9 @@
   "description": "Send statistics for SSEHub instance to StatsD.",
   "main": "app.js",
   "dependencies": {
-    "dependencies": {
     "bluebird": "^3.4.5",
     "node-statsd": "^0.1.1",
     "request-promise": "^4.1.1"
-  }
   },
   "devDependencies": {},
   "keywords": [
