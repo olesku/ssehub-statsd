@@ -10,7 +10,7 @@ node app.js
 
 ## Environment variables
 
-* `SSEHUB_STATS_URL` - URL to poll for stats.
+* `SSEHUB_STATS_URLS` - Comma seperated list of urls to poll for stats.
 * `STATSD_HOST` - Host that StatsD is running on.
 * `STATSD_Port` - Port that StatsD is running on.
 * `STATSD_PREFIX` - Metric prefix in StatsD.
