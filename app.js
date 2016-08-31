@@ -29,6 +29,7 @@ function submitData(id, obj) {
     var metricVal = parseInt(obj[key], 10);
 
     if (metricVal == NaN) return;
+    statsdClient.gauge(metricKey, metricVal);
     console.log(metricKey, ':', metricVal);
   });
 
